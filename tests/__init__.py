@@ -8,6 +8,5 @@ paths.pop() # remove __init__.py
 paths.pop() # remove tests
 
 ROOT_PATH = "/".join(paths)
-SHAPES_PATH = f"{ROOT_PATH}/shapes"
 
-sys.path.append(SHAPES_PATH)
+sys.path.append(ROOT_PATH)

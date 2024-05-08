@@ -1,7 +1,7 @@
 from unittest import TestCase
 
-from shape import Shape
-from square import Square
+from shapes.shape import Shape
+from shapes.square import Square
 
 class TestSquare(TestCase):
   def test_is_instance(self):

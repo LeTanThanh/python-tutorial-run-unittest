@@ -1,7 +1,7 @@
 from unittest import TestCase
 
-from shape import Shape
-from circle import Circle
+from shapes.shape import Shape
+from shapes.circle import Circle
 
 class TestCircle(TestCase):
   def test_is_instance(self):

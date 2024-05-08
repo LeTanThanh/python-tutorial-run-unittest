@@ -1,6 +1,6 @@
 import math
 
-from shape import Shape
+from .shape import Shape
 
 class Square(Shape):
   def __init__(self, length: float) -> None:
